@@ -11,6 +11,10 @@
 		980B0C4C29A26F5200F67BBE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980B0C4B29A26F5200F67BBE /* ContentView.swift */; };
 		980B0C4E29A26F5300F67BBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 980B0C4D29A26F5300F67BBE /* Assets.xcassets */; };
 		980B0C5129A26F5300F67BBE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 980B0C5029A26F5300F67BBE /* Preview Assets.xcassets */; };
+		980B0C5929A26F7900F67BBE /* JokesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980B0C5829A26F7900F67BBE /* JokesModel.swift */; };
+		980B0C5D29A26FF900F67BBE /* JokesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980B0C5C29A26FF900F67BBE /* JokesController.swift */; };
+		980B0C6029A28F4300F67BBE /* SetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980B0C5F29A28F4300F67BBE /* SetupView.swift */; };
+		980B0C6229A2904A00F67BBE /* PunchlineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980B0C6129A2904A00F67BBE /* PunchlineView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		980B0C4B29A26F5200F67BBE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		980B0C4D29A26F5300F67BBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		980B0C5029A26F5300F67BBE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		980B0C5829A26F7900F67BBE /* JokesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesModel.swift; sourceTree = "<group>"; };
+		980B0C5C29A26FF900F67BBE /* JokesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesController.swift; sourceTree = "<group>"; };
+		980B0C5F29A28F4300F67BBE /* SetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupView.swift; sourceTree = "<group>"; };
+		980B0C6129A2904A00F67BBE /* PunchlineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunchlineView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +59,11 @@
 		980B0C4829A26F5200F67BBE /* Jokes */ = {
 			isa = PBXGroup;
 			children = (
+				980B0C5B29A26FDF00F67BBE /* Controllers */,
+				980B0C5729A26F6400F67BBE /* Models */,
 				980B0C4929A26F5200F67BBE /* JokesApp.swift */,
 				980B0C4B29A26F5200F67BBE /* ContentView.swift */,
+				980B0C5E29A28F1300F67BBE /* Views */,
 				980B0C4D29A26F5300F67BBE /* Assets.xcassets */,
 				980B0C4F29A26F5300F67BBE /* Preview Content */,
 			);
@@ -65,6 +76,31 @@
 				980B0C5029A26F5300F67BBE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		980B0C5729A26F6400F67BBE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				980B0C5829A26F7900F67BBE /* JokesModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		980B0C5B29A26FDF00F67BBE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				980B0C5C29A26FF900F67BBE /* JokesController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		980B0C5E29A28F1300F67BBE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				980B0C5F29A28F4300F67BBE /* SetupView.swift */,
+				980B0C6129A2904A00F67BBE /* PunchlineView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +173,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				980B0C5D29A26FF900F67BBE /* JokesController.swift in Sources */,
+				980B0C6229A2904A00F67BBE /* PunchlineView.swift in Sources */,
+				980B0C5929A26F7900F67BBE /* JokesModel.swift in Sources */,
 				980B0C4C29A26F5200F67BBE /* ContentView.swift in Sources */,
+				980B0C6029A28F4300F67BBE /* SetupView.swift in Sources */,
 				980B0C4A29A26F5200F67BBE /* JokesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
